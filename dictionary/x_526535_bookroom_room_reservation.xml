@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Room Reservation" max_length="40" name="x_526535_bookroom_room_reservation" type="collection">
         <element label="End TIme" mandatory="true" max_length="40" name="end_time" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Room" mandatory="true" max_length="32" name="room" reference="x_526535_bookroom_rooms" type="reference"/>
         <element label="Seats" max_length="40" name="seats" type="integer"/>
         <element label="Start Time" mandatory="true" max_length="40" name="start_time" type="glide_date_time"/>
@@ -11,7 +12,7 @@
                 <element inactive_on_update="false" label="Waiting for Approval" value="2"/>
             </choice>
         </element>
-        <element label="User" mandatory="true" max_length="32" name="user" reference="x_526535_bookroom_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="user"/>
         </index>
