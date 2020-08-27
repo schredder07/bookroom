@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>false</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_526535_bookroom_room_reservation</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_526535_bookroom_room_reservation">statusCHANGESFROM2^EQ<item display_value="Waiting for Approval" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SendEmail</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 12:59:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7e705c707be1010d171f0269c1ed093</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SendEmail</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BookRoom" source="x_526535_bookroom">b46d843a07b21010d171f0269c1ed008</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BookRoom">b46d843a07b21010d171f0269c1ed008</sys_scope>
+        <sys_update_name>sys_script_a7e705c707be1010d171f0269c1ed093</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 12:59:59</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7e705c707be1010d171f0269c1ed093"/>
+</record_update>

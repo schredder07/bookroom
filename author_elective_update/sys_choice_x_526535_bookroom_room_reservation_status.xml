@@ -1,4 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="status" table="x_526535_bookroom_room_reservation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_526535_bookroom_room_reservation</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-27 07:59:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>337384cbdb32101017bd64d7489619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-27 07:59:29</sys_updated_on>
+            <value>-1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting for Approval</label>
+            <language>en</language>
+            <name>x_526535_bookroom_room_reservation</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-27 07:59:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8263c8cbdb32101017bd64d748961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-27 07:59:12</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_526535_bookroom_room_reservation</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-27 07:58:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa4348cbdb32101017bd64d7489619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-27 07:58:51</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_526535_bookroom_room_reservation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-27 07:58:51</sys_created_on>
+            <sys_id>d3e7dcc31b3e1010a7a497d7bd4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="BookRoom" source="x_526535_bookroom">b46d843a07b21010d171f0269c1ed008</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BookRoom">b46d843a07b21010d171f0269c1ed008</sys_scope>
+            <sys_update_name>sys_choice_x_526535_bookroom_room_reservation_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-27 07:58:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BookRoom">b46d843a07b21010d171f0269c1ed008</application>
+        <file_path/>
+        <instance_id>f5825851db4abf848aea21c40596190a</instance_id>
+        <instance_name>dev87123</instance_name>
+        <name>sys_choice_x_526535_bookroom_room_reservation_status</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_526535_bookroom_room_reservation" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -74,4 +157,42 @@
             <sys_updated_on>2020-08-27 07:58:51</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>1025253668</payload_hash>
+        <record_name>Room Reservation.Status</record_name>
+        <reverted_from/>
+        <source>25e8010b07be1010d171f0269c1ed0b1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 13:02:59</sys_created_on>
+        <sys_id>4809090b07be1010d171f0269c1ed0ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1743003a7990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 13:02:59</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>c409090bf9be10107b1202ba6e3f7aae</update_guid>
+        <update_guid_history>c409090bf9be10107b1202ba6e3f7aae:0,92e8410b20be1010642bfefa2b90fc7a:-114706424,56e8410b8dbe101047fc3552b9ad3a77:950693104,12e8410b47be1010771b67e8d0aa3b75:-1747829644,325309c3a3be10108e2c3b003aadef83:0,d45345c374be1010c94c4aefe9f9ed77:-114706424,1c5345c3c1be1010c8ee7cff064d2a74:950693104,045345c3ecbe101078e463d764e43a72:-1747829644,8caefc8f467e10108ee1d85df96784b1:0,878e788f167e1010b7df6e0f53e1e20a:-114706424,0b8e788fac7e1010e79ffde52cd39a07:950693104,c38e788fd17e1010900843dccc6c6605:-1747829644,a74d744f417e1010807d3d121843d143:0,6c4d304f577e101090d19c2851a940d8:-114706424,a04d304fc47e1010437a82132ebcd6d6:950693104,a84d304f3e7e101067cbc3fa7173f9d3:-1747829644,3339188f4afa1010e0825a26ae98e396:0,ac29508f4bfa101047114ff644a44e53:-114706424,2029508f17fa1010f011d736f3071651:950693104,2429508f69fa1010c4e5d876ce114742:-1747829644,2f099c4ffdfa1010be3b4d775324dd4a:0,ffe8944f0cfa10102436bb6636ce61db:-114706424,b3e8944fbafa1010b3c2c9f16ea69dd9:950693104,7fe8944f4bfa1010d617fb5e402b99d6:-1747829644,58b61ccb26fa101038b333bd9df35e6f:0,599614cb4dfa1010910073e8224a28e0:-114706424,1d9614cb87fa1010fe3ecdd01b3c3ddd:950693104,d59614cb24fa1010d451346817fca3db:-1747829644,641c88075efa1010198cd849cf9b0d59:0,51fb80071dfa101099842006f573fbe5:-114706424,15fb800723fa10105a08bc7e10c74ee2:950693104,cdfb800725fa101080b40f5b86784edf:-1747829644,b72484cf6eba1010bacbfaf98cfc1bc2:0,ff2484cf15ba1010677db49f520979ba:290917844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 13:03:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>0c09090b07be1010d171f0269c1ed0ab</sys_id>
+        <sys_metadata>0c09090b07be1010d171f0269c1ed0ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="BookRoom" source="x_526535_bookroom">b46d843a07b21010d171f0269c1ed008</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BookRoom">b46d843a07b21010d171f0269c1ed008</sys_scope>
+        <sys_scope_delete display_value="">8eb7c35ff0a141c89d770e76221ae4a4</sys_scope_delete>
+        <sys_update_name>sys_choice_x_526535_bookroom_room_reservation_status</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_526535_bookroom_room_reservation_status">4809090b07be1010d171f0269c1ed0ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 13:03:25</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
