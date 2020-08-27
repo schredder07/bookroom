@@ -42,7 +42,7 @@
         <update_guid_history>8610c80b8d3210109d75e908627efd1f:2075459364</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_526535_bookroom_room.x_526535_bookroom.room_user">32204c0bdb32101017bd64d748961936</sys_audit_delete>
+        <sys_audit_delete display_value="">32204c0bdb32101017bd64d748961936</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-27 07:44:48</sys_created_on>
