@@ -31,12 +31,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-27 13:40:35</sys_created_on>
         <sys_id>269155cf07be1010d171f0269c1ed07f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-27 14:22:48</sys_updated_on>
+        <sys_updated_on>2020-08-27 14:30:24</sys_updated_on>
         <table>x_526535_bookroom_room_reservation</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="BookRoom">b1b5414707be1010d171f0269c1ed0bc</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
