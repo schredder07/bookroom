@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Room Reservation" max_length="40" name="x_526535_bookroom_room_reservation" type="collection">
-        <element label="End TIme" mandatory="true" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Date Booked" mandatory="true" max_length="40" name="date_booked" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Room" mandatory="true" max_length="32" name="room" reference="x_526535_bookroom_rooms" type="reference"/>
         <element label="Seats" max_length="40" name="seats" type="integer"/>
-        <element label="Start Time" mandatory="true" max_length="40" name="start_time" type="glide_date_time"/>
         <element choice="3" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="3"/>
