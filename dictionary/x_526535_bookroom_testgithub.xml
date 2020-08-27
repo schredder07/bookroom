@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="testgithub" max_length="40" name="x_526535_bookroom_testgithub" type="collection">
+        <element label="farbe" max_length="40" name="farbefarbe" type="color"/>
+    </element>
+</database>

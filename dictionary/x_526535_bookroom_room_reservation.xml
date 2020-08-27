@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Room Reservation" max_length="40" name="x_526535_bookroom_room_reservation" type="collection">
+        <element label="End TIme" mandatory="true" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Room" mandatory="true" max_length="32" name="room" reference="x_526535_bookroom_rooms" type="reference"/>
+        <element label="Seats" max_length="40" name="seats" type="integer"/>
+        <element label="Start Time" mandatory="true" max_length="40" name="start_time" type="glide_date_time"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="3"/>
+                <element inactive_on_update="false" label="Rejected" value="-1"/>
+                <element inactive_on_update="false" label="Waiting for Approval" value="2"/>
+            </choice>
+        </element>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="x_526535_bookroom_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+        <index name="index2">
+            <element name="room"/>
+        </index>
+    </element>
+</database>

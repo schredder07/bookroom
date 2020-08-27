@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="User" max_length="40" name="x_526535_bookroom_user" type="collection">
+        <element label="Name" mandatory="true" max_length="64" name="name" type="string"/>
+    </element>
+</database>

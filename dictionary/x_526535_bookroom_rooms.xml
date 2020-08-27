@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Rooms" max_length="40" name="x_526535_bookroom_rooms" type="collection">
+        <element label="Room Number" mandatory="true" max_length="32" name="room_number" type="string"/>
+        <element default="10" label="Seats" mandatory="true" max_length="40" name="seats" type="integer"/>
+    </element>
+</database>
